@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 pio.renderers.default = 'browser'
 pd.set_option('display.max_columns', None)
@@ -45,3 +46,16 @@ plt.title("Log-scaled Population Density Across Indian States")
 plt.xlabel("State")
 plt.ylabel("Log-scaled Population Density")
 plt.show()
+
+# 使用 Plotly Express 繪製人口密度的地理資訊圖
+fig = px.choropleth(
+    df,
+    locations="id",
+    geojson=india_states,
+    color="DensityScale",
+    hover_name="State or union territory",
+    hover_data=["Density"],
+    title="India Population Density",
+)
+fig.update_geos(fitbounds="locations", visible=False)
+fig.show()
