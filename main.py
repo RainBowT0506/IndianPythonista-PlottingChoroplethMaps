@@ -75,3 +75,18 @@ fig = px.choropleth_mapbox(
     opacity=0.5,
 )
 fig.show()
+
+# 使用 Plotly Express 繪製性別比的地理資訊圖
+fig = px.choropleth(
+    df,
+    locations="id",
+    geojson=india_states,
+    color="SexRatioScale",
+    hover_name="State or union territory",
+    hover_data=["Sex ratio"],
+    title="India Sex Ratio",
+    color_continuous_scale=px.colors.diverging.BrBG,
+    color_continuous_midpoint=0,
+)
+fig.update_geos(fitbounds="locations", visible=False)
+fig.show()
