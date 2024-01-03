@@ -59,3 +59,19 @@ fig = px.choropleth(
 )
 fig.update_geos(fitbounds="locations", visible=False)
 fig.show()
+
+# 使用 Mapbox 繪製人口密度的地理資訊圖
+fig = px.choropleth_mapbox(
+    df,
+    locations="id",
+    geojson=india_states,
+    color="DensityScale",
+    hover_name="State or union territory",
+    hover_data=["Density"],
+    title="India Population Density",
+    mapbox_style="carto-positron",
+    center={"lat": 24, "lon": 78},
+    zoom=3,
+    opacity=0.5,
+)
+fig.show()
