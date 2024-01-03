@@ -44,13 +44,26 @@ Github：[IndianPythonista-PlottingChoroplethMaps](https://github.com/RainBowT05
 12. 通過使用diverging color scale，繪製性別比例的choropleth map，提供更具信息性的視覺化。
     ![Plotly Express - India Sex Ratio](https://github.com/RainBowT0506/IndianPythonista-PlottingChoroplethMaps/assets/109667537/7aec7209-92b8-4014-9114-68a88695c707)
 
-
+## 專業術語
+* Choropleth Map (分區地圖)：一種使用色彩編碼在地理地圖上表示區域數據的特殊地圖類型。
+* GeoJSON (地理JSON)：一種開放標準格式，用於表示地理特徵的簡單地理數據，包括非空間屬性。
+* Plotly：一家技術計算公司，提供在線數據分析和可視化工具，並為Python等語言提供科學繪圖庫。
+* Plotly Express：Plotly的高級Python繪圖庫，提供簡單的語法來創建複雜的圖表。
+* Mapbox：一家提供自定義設計地圖的公司和開放源碼地圖平台。
+* Density Scale (密度比例)：用於表示地區人口密度的比例尺。
+* Choropleth Map with Mapbox Base Maps (使用Mapbox基本地圖的分區地圖)：使用Mapbox提供的基本地圖樣式創建的分區地圖。
+* Diverging Color Scale (分歧顏色刻度)：一種連續色彩刻度，通常用於區分正值和負值的情況，具有中點用於區分兩個極端。
+* Hover Name (懸停名稱)：在choropleth地圖上，當鼠標懸停在某區域時顯示的標題名稱。
+* Hover Data (懸停數據)：在choropleth地圖上，懸停時顯示的其他數據信息。
+* Color Scale (色彩刻度)：指在地圖上使用的顏色範圍，根據數據值的變化呈現不同的色彩。
+* Logarithmic Scale (對數刻度)：使用對數函數將數據值轉換成對數值，以平滑數據的變化。
+* Map Access Token (地圖訪問令牌)：用於訪問Mapbox地圖服務的權限令牌，有時需要進行身份驗證。
 ## 參考
-[印度行政區人口列表](https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population)
-[Shapes of Indian administrative boundaries](https://un-mapped.carto.com/tables/states_india/public/map)
-[Plotly - Choropleth map](https://plotly.com/python/choropleth-maps/)
-[Plotly - Color Scales](https://plotly.com/python/colorscales/)
-[Mapbox Choropleth Maps in Python](https://plotly.com/python/mapbox-county-choropleth/)
-[Mapbox Map Layers in Python](https://plotly.com/python/mapbox-layers/)
-[面量圖 (Choropleth map)](https://zh.wikipedia.org/zh-tw/%E9%9D%A2%E9%87%8F%E5%9C%96)
-[Mapbox](https://www.mapbox.com/)
+* [印度行政區人口列表](https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population)
+* [Shapes of Indian administrative boundaries](https://un-mapped.carto.com/tables/states_india/public/map)
+* [Plotly - Choropleth map](https://plotly.com/python/choropleth-maps/)
+* [Plotly - Color Scales](https://plotly.com/python/colorscales/)
+* [Mapbox Choropleth Maps in Python](https://plotly.com/python/mapbox-county-choropleth/)
+* [Mapbox Map Layers in Python](https://plotly.com/python/mapbox-layers/)
+* [面量圖 (Choropleth map)](https://zh.wikipedia.org/zh-tw/%E9%9D%A2%E9%87%8F%E5%9C%96)
+* [Mapbox](https://www.mapbox.com/)
