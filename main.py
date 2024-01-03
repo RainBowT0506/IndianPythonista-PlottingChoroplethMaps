@@ -38,3 +38,10 @@ plt.title("Population Density Across Indian States")
 plt.xlabel("State")
 plt.ylabel("Population Density")
 plt.show()
+
+# 繪製 log 轉換後的人口密度折線圖
+df["DensityScale"].plot()
+plt.title("Log-scaled Population Density Across Indian States")
+plt.xlabel("State")
+plt.ylabel("Log-scaled Population Density")
+plt.show()
